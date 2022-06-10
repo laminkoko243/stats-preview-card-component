@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com](https://github.com/laminkoko243/stats-preview-card-component)
-- Live Site URL: [Github](https://your-live-site-url.com](https://laminkoko243.github.io/stats-preview-card-component/)
+- Solution URL - [Github](https://your-solution-url.com](https://github.com/laminkoko243/stats-preview-card-component)
+- Live Site URL - [Github](https://your-live-site-url.com](https://laminkoko243.github.io/stats-preview-card-component/)
 
 ## My process
 
@@ -68,7 +68,7 @@ To see how you can add code snippets, see below:
 ## Author
 
 - Website - [La Min Ko Ko](https://www.laminkoko.com)
-- Frontend Mentor - [@klaminkoko243](https://www.frontendmentor.io/profile/laminkoko243)
+- Frontend Mentor - [@laminkoko243](https://www.frontendmentor.io/profile/laminkoko243)
 - Twitter - [@laminkoko243](https://twitter.com/laminkoko243)
 - Facebook - [@laminkoko243] (https://www.facebook.com/laminkoko243)
 - LinkedIn - [@laminkoko] (https://www.linkedin.com/in/laminkoko/)
