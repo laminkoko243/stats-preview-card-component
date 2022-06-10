@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github]([https://your-solution-url.com](https://github.com/laminkoko243/stats-preview-card-component))
-- Live Site URL: [Github]([https://your-live-site-url.com](https://laminkoko243.github.io/stats-preview-card-component/))
+- Solution URL: [Github](https://your-solution-url.com](https://github.com/laminkoko243/stats-preview-card-component)
+- Live Site URL: [Github](https://your-live-site-url.com](https://laminkoko243.github.io/stats-preview-card-component/)
 
 ## My process
 
