@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    padding-top: 150px;
+}
+
+.header-row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header-col-1 {
+    flex-basis: 60% ;
+    padding: 80px;
+}
+
+.header-h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+}
+
+.header-heading-span {
+    color: hsl(277, 64%, 61%);
+}
+
+.header-p {
+    margin-bottom: 80px;
+    font-family: 'Inter', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.6);
+}
+
+.stats-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2.stats {
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+p.stats {
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: .7rem;
+}
+
+.header-col-2 {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.header-img {
+    height: 100%;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(170, 92, 219, .6);
+    z-index: 2;
+    overflow: hidden;
+}
+
+footer {
+    margin-top: 100px;
+    color:hsla(0, 0%, 100%, 0.6);
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px)  {
+    .container {
+        padding-top: 50px;
+    }
+
+    .header-row {
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .header-col-1 {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .header-h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .header-p {
+        margin-bottom: 50px;
+    }
+
+    .stats-row {
+        flex-direction: column;
+    }
+
+    .stats-col-1 {
+        margin-bottom: 30px;
+    }
+
+    .stats-col-2 {
+        margin-bottom: 30px;
+    }
+
+    .stats-col-3 {
+        margin-bottom: 30px;
+    } 
+
+    p.stats {
+        font-size: 1rem;
+    }
+
+    .header-col-2 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .header-img {
+        flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+    }
+
+    footer {
+        margin: 50px;
+        font-size: .6rem;
+    }
+}
